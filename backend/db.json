@@ -1,20 +1,20 @@
 {
   "userProfiles": [
     {
-      "id": 1,
-      "name": "Sam Li",
-      "avatar": "/public/image/profile/profile_3.png",
-      "email": "11224443@gmail.com",
+      "id": "1",
+      "name": "Andrew Li",
+      "avatar": "/public/image/profile/profile_1.png",
+      "email": "andrewli@gmail.com",
       "description": "I have honed my skills in programming languages such as Python and Java, and I have experience in developing web applications and machine learning models.",
       "hobby": "Programming",
       "constellation": "Capricorn",
       "mbti": "IFTP",
       "linked": "2114444",
-      "x": "1122443@gmail.com",
+      "x": "andrewli@gmail.com",
       "wechat": "186221240116"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Alex Wang",
       "avatar": "/public/image/profile/profile_4.png",
       "email": "alex.wang@example.com",
@@ -30,7 +30,7 @@
   ],
   "userPosts": [
     {
-      "id": 1,
+      "id": "1",
       "user": "Sam Li",
       "avatar": "/public/image/profile/profile_3.png",
       "image": "public/image/post-image/post-image1.jpg",
@@ -38,7 +38,7 @@
       "timestamp": "2024-07-22 10:30:00"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": "Sam Li",
       "avatar": "/public/image/profile/profile_3.png",
       "image": "public/image/post-image/post-image2.jpg",
@@ -46,9 +46,9 @@
       "timestamp": "2024-08-05 14:15:00"
     },
     {
-      "id": 3,
-      "user": "Sam Li",
-      "avatar": "/public/image/profile/profile_4.png",
+      "id": "3",
+      "user": "Andrew Li",
+      "avatar": "/public/image/profile/profile_3.png",
       "image": "public/image/post-image/post-image1.jpg",
       "content": "Had a great day out with friends. We laughed so much and made some wonderful memories!",
       "timestamp": "2024-09-10 16:00:00"

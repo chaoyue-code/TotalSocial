@@ -2,6 +2,7 @@ const express = require('express');
 
 const cors = require('cors');
 const router = require('./routes/index');
+const { handleErrors } = require('./middleware/errorMiddleware');
 const app = express();
 
 //add json and url 编码请求体大小限制
@@ -12,6 +13,9 @@ app.use(cors());
 app.use(express.json()); // analyse json file
 
 app.use('/api', router);
+
+//use error middleware at the end
+app.use(handleErrors);
 
 const PORT = 80; // this is for the web server, not json server. json server is at PORT 8000 see in package.json
 // json server is for data
